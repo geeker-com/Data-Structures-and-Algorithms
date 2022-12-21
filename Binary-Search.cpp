@@ -3,7 +3,7 @@
 using namespace std;
 int binarysearch(int ar[], int m, int n)
 {
-    int s = 1; // starting pointer at 0
+    int s = 0; // starting pointer at 0
     int e = n;
     while (s <= e)
     {
