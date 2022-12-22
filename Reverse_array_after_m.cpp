@@ -21,7 +21,21 @@ void reverseArray(vector<int> &arr, int m)
         j++;
     }
 }
+// Alternate short code according to lecture
+// void reverseArray(vector<int> &arr, int m)
+// {
 
+//     int s = 0;
+//     int e = arr.size() - 1;
+
+//     while (s <= e)
+
+//     {
+//         swap(arr[s], arr[e]);
+//         s++;
+//         e--;
+//     }
+// }
 int main()
 {
     vector<int> arr;
