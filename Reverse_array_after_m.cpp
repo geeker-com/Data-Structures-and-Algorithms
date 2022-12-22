@@ -35,7 +35,7 @@ void reverseArray(vector<int> &arr, int m)
 //         s++;
 //         e--;
 //     }
-// }
+//// }
 int main()
 {
     vector<int> arr;
